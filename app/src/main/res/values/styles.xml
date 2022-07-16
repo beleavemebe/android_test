@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeAppearanceOverlay.Sirius.Round" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="RatingBar.Sirius" parent="Theme.AppCompat">
+        <item name="android:stepSize">0.1</item>
+        <item name="colorControlNormal">#45454D</item>
+        <item name="colorControlActivated">#F4D144</item>
+    </style>
+
+    <style name="Fab.Sirius" parent="">
+        <item name="backgroundTint">@color/TopActionButtonBackgroundColor</item>
+        <item name="borderWidth">0dp</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="Button.Sirius.Action" parent="">
+    </style>
+
+    <style name="TextAppearance.Sirius.Tag" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body1</item>
+        <item name="android:background">#3D44A9F4</item>
+        <item name="android:textColor">#44A9F4</item>
+    </style>
+</resources>
